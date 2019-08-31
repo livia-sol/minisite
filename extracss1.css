@@ -1,0 +1,194 @@
+body{
+	font-family: Verdana;
+	font-size: 14px;
+	color:#fff;
+}
+
+.text{
+	/*position: -webkit-sticky;*/
+  	position: sticky;
+  	top: 0;
+  	background-color: lightgreen;
+	float:left;
+	width: 20px;
+	height:170px;	
+	margin-left:50px;
+	padding-left: 12px; 
+	vertical-align: center;
+}
+
+.vertical-text {
+	width:1px;
+    word-wrap: break-word;
+    font-family: monospace; /* this is just for good looks */
+    white-space:pre-wrap; /* this is for displaying whitespaces including Moz-FF.*/
+}
+
+.allcontent{
+	width:1024px;
+	height:600px;
+	margin: 0 auto;
+	padding:0px;
+}
+
+header{
+	background: #0B0B61;
+	height:150px;
+	line-height: 150px;/*text exact in mijlocul continerului header*/
+	text-align: center;
+	margin-bottom: 0px;
+}
+
+nav{
+	background: black;
+	height:50px;
+	line-height:50px;
+	text-align:center;	
+	
+}
+
+nav a{
+	text-decoration: none;
+	color:white;
+	padding:0px 20px;
+}
+
+nav a:hover{
+	background: #0B0B61;
+}
+
+.dropdown{
+	position: relative;
+	display: inline-block;
+}
+
+.dropdown-content{
+	display: none;
+  	position: absolute;
+  	background-color: black;
+}
+
+.dropdown-content a:hover{
+	text-align: center;
+	text-decoration: none;
+}
+
+.dropdown:hover .dropdown-content {
+  	display: block;
+  	/*transition:0.8s ease-in-out;
+    -moz-transition:0.8s ease-in-out;
+    -o-transition:0.8s ease-in-out;
+	-webkit-transition:all 0.8s ease-in-out;*/
+}
+
+.box{
+	height:300px;
+}
+section{
+	float:left;
+}
+article{
+	float:right;
+}
+
+article, section{
+	background-color: lightblue;
+	width:472px;
+	height:300px;
+	/*border:1px solid #0B0B61;*/
+	color:black;
+	padding:20px;
+}
+
+article h3{
+	text-align: center;
+}
+
+footer{
+	background: #0B0B61;
+	height:100px;
+}
+
+#footer-social{
+	margin: 0px;
+	line-height:100px;
+}
+
+#footer-social li{
+	float: left;
+	margin: 5px;
+	list-style-type: none;
+	line-height:100px;	
+}
+
+		#footer-social a.facebook-icon{
+			background: url('img/sprite_facebook_large.png');
+			height: 50px;
+			width: 50px;
+			display: block;
+			text-indent: -9999px;
+			margin:0px;
+		}
+		#footer-social a.facebook-icon:hover{
+			background-position: 0px;
+		}		
+
+		#footer-social a.linkedin-icon{
+			background: url('img/sprite_linkedin_large.png');
+			height: 50px;
+			width: 50px;
+			display: block;
+			text-indent: -9999px;
+			margin: 0px;
+		}
+		#footer-social a.linkedin-icon:hover{
+			background-position: 0px;
+		}
+
+		#footer-social a.yahoo-icon{
+			background: url('img/sprite_yahoo_large.png');
+			height: 50px;
+			width: 50px;
+			display: block;
+			text-indent: -9999px;
+			margin: 0px;
+		}
+		#footer-social a.yahoo-icon:hover{
+			background-position: 0px;
+		}
+
+		#footer-social a.gmail-icon{
+			background: url('img/sprite_gmail_large.png');
+			height: 50px;
+			width: 50px;
+			display: block;
+			text-indent: -9999px;
+			margin: 0px;
+		}
+		#footer-social a.gmail-icon:hover{
+			background-position: 0px;
+		}
+
+		#footer-social a.youtube-icon{
+			background: url('img/sprite_youtube_large.png');
+			height: 50px;
+			width: 50px;
+			display: block;
+			text-indent: -9999px;
+			margin: 0px;
+		}
+		#footer-social a.youtube-icon:hover{
+			background-position: 0px;
+		}
+
+		#footer-social a.twitter-icon{
+			background: url('img/sprite_twitter_large.png');
+			height: 50px;
+			width: 50px;
+			display: block;
+			text-indent: -9999px;
+			margin: 0px;
+		}
+		#footer-social a.twitter-icon:hover{
+			background-position: 0px;
+		}
